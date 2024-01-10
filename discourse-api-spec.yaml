@@ -3429,7 +3429,7 @@ paths:
                   readers_count:
                     type: integer
                   score:
-                    type: ''
+                    type: integer
                   yours:
                     type: boolean
                   topic_id:
@@ -3645,7 +3645,7 @@ paths:
                       readers_count:
                         type: integer
                       score:
-                        type: ''
+                        type: integer
                       yours:
                         type: boolean
                       topic_id:
