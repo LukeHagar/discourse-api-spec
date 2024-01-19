@@ -65,9 +65,9 @@ info:
   license:
     name: MIT
     url: https://docs.discourse.org/LICENSE.txt
- security:
-  - key: []
-    username: []
+  security:
+    - key: []
+      username: []
 components:
   securitySchemes:
     key:
