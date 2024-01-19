@@ -65,6 +65,21 @@ info:
   license:
     name: MIT
     url: https://docs.discourse.org/LICENSE.txt
+ security:
+  - key: []
+    username: []
+components:
+  securitySchemes:
+    key:
+      description: Discourse Authentication Token
+      type: apiKey
+      in: header
+      name: Api-Key
+    username:
+      description: Discourse Authentication Username
+      type: apiKey
+      in: header
+      name: Api-Username
 paths:
   "/admin/backups.json":
     get:
