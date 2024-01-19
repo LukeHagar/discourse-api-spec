@@ -65,10 +65,6 @@ info:
     name: MIT
     url: https://docs.discourse.org/LICENSE.txt
 
-security:
-  - key: []
-    username: []
-
 paths:
   "/admin/backups.json":
     get:
